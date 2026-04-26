@@ -1,0 +1,26 @@
+{
+  "name": "orangehrm-playwright",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "orangehrm",
+    "e2e",
+    "page-object-model"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "End-to-end tests for OrangeHRM (opensource-demo) with Playwright and Page Object Model.",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
