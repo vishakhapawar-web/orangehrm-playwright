@@ -85,10 +85,6 @@ On push/PR to `main` or `master`, the workflow installs browsers, runs `npx play
 
 To host this project on your **personal** GitHub account: follow [docs/personal-github.md](docs/personal-github.md).
 
-## Additional deliverables (manual QA)
-
-- [Manual test cases](docs/manual-test-cases.md) — outline aligned with the automated scenarios.
-- [Sample bug report](docs/sample-bug-report.md) — template for course submissions.
 
 ## License
 
